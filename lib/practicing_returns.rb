@@ -4,7 +4,8 @@ def hello(array)
   i = 0
   collection = []
   while i < array.length
-    collection << yield(array[i])
+    collection << yield(array[i]) 
+    #Shoveling/Pushing the name to the collection while writing
     i += 1
   end
   collection
