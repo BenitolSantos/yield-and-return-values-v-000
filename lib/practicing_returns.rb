@@ -11,5 +11,7 @@ def hello(array)
   collection
 end
 
+#Marcus
+
 
 hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
